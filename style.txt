@@ -1,0 +1,182 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #FFF2FF; 
+}
+
+p.dotted {border-style: dotted;}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: green;
+}
+
+   .topnav1 {
+     overflow: hidden;
+     background-color: #333;
+   }
+
+   .topnav1 a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 25px;
+   }
+
+   .topnav1 a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+
+   .topnav1 a.active {
+     background-color: red;
+     color: white;
+   }
+
+
+
+/* Style the topnav links */
+.column.side a {
+  /* float: left; */
+  display: block;
+  color: #F8C7FC;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+ 
+}
+
+/* Left and right column */
+.column.side {
+  overflow: hidden;
+  width: 20%;  
+  border: 1px solid black;
+
+  background-color: #F8C7FC;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.ramka{
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color: #FFF2FF;
+}
+
+/*do przycisków */
+.przes{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myHeader {
+  background-color: red;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.czcionka1{ 
+ 
+}
+
+.czcionka2{ 
+ font-size: 20px;
+}
+
+
+.czcionka20{ 
+ padding: -10px;
+ font-size: 20px;
+ 
+}
+.czcionka25{ 
+ font-size: 25px;
+ color: blue;
+}
+
+.czcionka3{ 
+ padding: -10px;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.czcionka3a{ 
+ color: red;
+ padding: -10px;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.img2 {
+  display: block;
+  
+  width: 10%;
+}
+
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+
+</style>
